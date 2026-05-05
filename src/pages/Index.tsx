@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import logo from "@/assets/global-ghosts-logo.png";
+import logo from "@/assets/global-ghosts-logo-new.png";
 import heroBg from "@/assets/hero-bg.jpg";
 
 const LAUNCH = new Date();
@@ -68,7 +68,7 @@ const Index = () => {
           <img
             src={logo}
             alt="Global Ghosts DayZ Server logo"
-            className="w-[min(90vw,640px)] drop-shadow-[0_8px_30px_rgba(0,0,0,0.8)] [filter:invert(1)_brightness(1.1)]"
+            className="w-[min(90vw,640px)] drop-shadow-[0_8px_30px_rgba(0,0,0,0.8)]"
           />
 
           <h1 className="sr-only">Global Ghosts DayZ Server — Coming Soon</h1>
